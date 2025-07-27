@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--// To tell the browser that what version of HTML the page is written (HTML 5) current version-->
+<html lang="en">
+<!--// Opening tag of the html and attribute lang means language of the document content-->
+<head>
+    <meta charset="UTF-8">
+    <!--    // how to read and display the text on your website  UTF-8 is a type of character set. It supports almost all languages and symbols.-->
+    <title>
+        Smart TO-DO List
+    </title>
+    <!--        You will see it in the tab at the top of your browser window.-->
+    <link rel="stylesheet" herf="style.css">
+    <!--    //link external files The stylesheet is located at a file named style.css-->
+</head>
+<body>
+    <div class="container">
+        <h2>📝 Smart To-Do List</h2>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a task..." required />
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list">
+        </ul>
+        <script src="script.js"></script> <!-- Your JavaScript here -->
+    </div>
+</body>
+</html>
